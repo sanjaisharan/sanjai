@@ -1,18 +1,7 @@
-import React from "react";
-import Header from "./component/header";
-import Main from "./component/main";
-import Footer from "./component/footer";
+import Login from "./component/Login";
 
-import "./App.css"; 
-
-function App() {
-  return (
-    <div className="app">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+export default function app(){
+  return(
+    <Login></Login>
   );
 }
-
-export default App;

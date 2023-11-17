@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <div className="header">
-      <h1 style={headerStyles}>FORM</h1>
+      <h1 style={headerStyles}color="pink">FORM</h1>
     </div>
   );
 }
