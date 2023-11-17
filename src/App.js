@@ -1,13 +1,8 @@
-import React from 'react'
-import Inlineexample from "./day2/InlineExample";
-import InlineParaexample from "./day2/InlineParaexample";
+import React from "react";
+import Disp from "./componets/day3/Disp";
+
 function App() {
-  return (
-    <div className="App">
-      <Inlineexample />
-      <InlineParaexample />
-    </div>
-  );
+  return <Disp />;
 }
 
 export default App;
