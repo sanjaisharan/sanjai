@@ -1,8 +1,7 @@
 import React from "react";
-import Disp from "./componets/day3/Disp";
-
-function App() {
-  return <Disp />;
+import BasicForm from "./day2/BasicForm";
+export default function app(){
+  return(
+    <BasicForm></BasicForm>
+  );
 }
-
-export default App;
