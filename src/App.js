@@ -1,7 +1,8 @@
-import React from "react";
-import BasicForm from "./day2/BasicForm";
-export default function app(){
-  return(
-    <BasicForm></BasicForm>
-  );
+import Goku from "./componets/day3/Goku";
+ export default function app()
+{         
+    return(
+
+      <Goku></Goku>
+        );   
 }
