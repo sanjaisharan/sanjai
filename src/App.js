@@ -1,9 +1,13 @@
-import Hello from "./day2/Hello";
-function App () {
+import React from 'react'
+import Inlineexample from "./day2/InlineExample";
+import InlineParaexample from "./day2/InlineParaexample";
+function App() {
   return (
-    <>
-      <Hello></Hello>
-    </>
+    <div className="App">
+      <Inlineexample />
+      <InlineParaexample />
+    </div>
   );
 }
+
 export default App;
