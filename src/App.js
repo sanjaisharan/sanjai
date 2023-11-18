@@ -1,8 +1,12 @@
-import Goku from "./componets/day3/Goku";
- export default function app()
-{         
-    return(
 
-      <Goku></Goku>
-        );   
+import FruitSurvey from "./componets/day4/FruitSurvey";
+
+
+export default function app(){
+  return(
+  
+<FruitSurvey></FruitSurvey>
+    
+   
+  );
 }
